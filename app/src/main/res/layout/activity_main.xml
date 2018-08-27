@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+     >
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Job"
+        android:id="@+id/btn"
+        android:layout_below="@+id/LINER"
+        android:layout_centerHorizontal="true"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/NameofCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Choose the City"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+    </RelativeLayout>
+
+        <Spinner
+            android:id="@+id/MA_spinner_City"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose the kind of Job"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+
+            android:id="@+id/MA_Name_Job"
+            android:layout_marginTop="20dp"/>
+    </RelativeLayout>
+
+        <Spinner
+            android:id="@+id/MA_spinner_Job"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose the the time of Job"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+
+            android:id="@+id/MA_Time_Job"
+            android:layout_marginTop="20dp"/>
+    </RelativeLayout>
+
+    <Spinner
+        android:id="@+id/MA_spinner_Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

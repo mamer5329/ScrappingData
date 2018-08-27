@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MyScraping</string>
+
+    <string-array name="cities">
+       <item name="London">London</item>
+       <item name="Leicester">Leicester</item>
+       <item name="Liverpool">Liverpool</item>
+       <item name="Manchester">Manchester</item>
+        <item name="Birmingham">Birmingham</item>
+    </string-array>
+
+    <string-array name="jobs">
+        <item name="all_jobs">All Jobs</item>
+        <item name="it">IT</item>
+        <item name="transport">Logistics</item>
+        <item name="Engineering">Engineering</item>
+        <item name="Admin and Secretarial">Admin and Secretarial</item>
+        <item name="Education">Education</item>
+        <item name="Accountancy">Accountancy</item>
+        <item name="Sales">Sales</item>
+        <item name="Customer_Service">Customer Service</item>
+        <item name="Health">Health</item>
+        <item name="Social_Care">Social Care</item>
+        <item name="Manufacturing">Factory</item>
+        <item name="Catering">Catering</item>
+    </string-array>
+
+    <string-array name="time_job">
+        <item name="both_times">Part and Full time</item>
+        <item name="part_time">Part time</item>
+        <item name="full_time">Full time</item>
+    </string-array>
+
+    <string-array name="citiesGUM">
+        <item name="London">325</item>
+        <item name="Leicester">543</item>
+        <item name="Liverpool">1720</item>
+        <item name="Manchester">336</item>
+        <item name="Birmingham">1596</item>
+    </string-array>
+
+</resources>
